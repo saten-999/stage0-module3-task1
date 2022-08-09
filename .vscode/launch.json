@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch UpdatedApp",
+            "request": "launch",
+            "mainClass": "lang.print.gaps.task1.UpdatedApp",
+            "projectName": "java.syntax.task1"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSentenceApp",
+            "request": "launch",
+            "mainClass": "lang.print.gaps.task1.PrintSentenceApp",
+            "projectName": "java.syntax.task1"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintWordsApp",
+            "request": "launch",
+            "mainClass": "lang.print.gaps.task1.PrintWordsApp",
+            "projectName": "java.syntax.task1"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillGapsApp",
+            "request": "launch",
+            "mainClass": "lang.print.gaps.task1.FillGapsApp",
+            "projectName": "java.syntax.task1"
+        },
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+        }
+    ]
+}
