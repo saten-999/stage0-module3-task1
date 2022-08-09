@@ -1,7 +1,9 @@
 package lang.print.gaps.task1;
+import java.util.logging.Logger;
 
 public class FillGapsApp {
     public static void main(String[] args) {
-        System.out.println("Fixed");
+        Logger logger = Logger.getLogger( PrintWordsApp.class.getName());
+        logger.info("Fixed");
     }
 }

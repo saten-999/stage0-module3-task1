@@ -1,7 +1,9 @@
 package lang.print.gaps.task1;
+import java.util.logging.Logger;
 
 public class PrintSentenceApp {
     public static void main(String[] args) {
-        System.out.println("This is my first Java program");
+        Logger logger = Logger.getLogger( PrintSentenceApp.class.getName());
+        logger.info("This is my first Java program");
     }
 }

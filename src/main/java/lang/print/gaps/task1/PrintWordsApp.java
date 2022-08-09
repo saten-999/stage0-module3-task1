@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 
 public class PrintWordsApp {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger( UpdatedApp.class.getName());
+        Logger logger = Logger.getLogger( PrintWordsApp.class.getName());
         logger.info("java" +  "\nis"  +"\nsmth");
     }
 }
